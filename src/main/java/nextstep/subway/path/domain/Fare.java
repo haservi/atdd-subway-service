@@ -6,10 +6,11 @@ import static nextstep.subway.exception.ErrorMessage.FARE_CANNOT_BE_ZERO;
 
 public class Fare {
 
-    private int fare;
     public static final int BASIC_FARE = 1250;
     public static final int DEDUCTION_FARE = 350;
     private static final int FARE_ZERO = 0;
+
+    private int fare;
 
     private Fare() {
 
